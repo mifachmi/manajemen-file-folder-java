@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FileManagementActivity">
+
+    <Button
+        android:id="@+id/buttonBuatFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buat_file" />
+
+    <Button
+        android:id="@+id/buttonUbahFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rename_file" />
+
+    <Button
+        android:id="@+id/buttonBacaFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/baca_file" />
+
+    <Button
+        android:id="@+id/buttonHapusFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hapus_file" />
+
+    <EditText
+        android:id="@+id/textBaca"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="top|left"
+        android:padding="8dp"
+        android:textColorHint="#000"
+        android:hint="@string/hasil_baca_file"
+        android:inputType="none"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simpan_perubahan" />
+
+</LinearLayout>

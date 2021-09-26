@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">File Management App</string>
+    <string name="hasil_baca_file">Nama File</string>
+    <string name="nama_folder">Nama Folder</string>
+    <string name="simpan_perubahan">Simpan Perubahan</string>
+    <string name="hapus_folder">Hapus Folder</string>
+    <string name="rename_folder">Rename Folder</string>
+    <string name="buat_folder">Buat Folder</string>
+    <string name="file_management">File Management</string>
+    <string name="folder_management">Folder Management</string>
+    <string name="buat_file">Buat File</string>
+    <string name="rename_file">Rename File</string>
+    <string name="baca_file">Baca File</string>
+    <string name="hapus_file">Hapus File</string>
+</resources>
